@@ -1,0 +1,53 @@
+@import "_variables";
+@import "_mixin";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Larish Neue Semibold2';
+    src: url('../fonts/Larish\ Neue\ Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'Larish Neue Semibold';
+    src: url('../fonts/Larish\ Neue\ Semibold.woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1440px;
+    font-size: 62.5%;
+}
+
+p {
+    font-family: 'Work Sans';
+    font-size: $small;
+}
+
+h1 {
+    font-family: 'Larish Neue Semibold';
+    font-size: $medium;
+}
+
+h2 {
+    font-family: 'Larish Neue Semibold2';
+    font-size: $medium;
+}
+
+.rsvpButton {
+    @include darkwhite;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 20px 45px;
+    font-family: 'Work Sans';
+    font-size: $small;
+}
+
+.rsvpButton:hover {
+    @include whitedark;
+    transition: all 0.5s ease-in;
+}

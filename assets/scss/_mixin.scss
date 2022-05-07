@@ -1,0 +1,9 @@
+@mixin darkwhite {
+    background-color: $bgdark;
+    color: $fontwhite;
+}
+
+@mixin whitedark {
+    background-color: $bgwhite;
+    color: $fontdark;
+}
