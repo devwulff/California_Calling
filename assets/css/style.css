@@ -396,4 +396,252 @@ header section {
   width: 15%;
 }
 
+@media only screen and (max-width: 420px) {
+  header {
+    height: 70vh;
+  }
+  header p:nth-of-type(1) {
+    margin: 0;
+  }
+  header h1 {
+    font-size: 5rem;
+  }
+  header h1:nth-of-type(2) {
+    margin: -2vh 0 0 0;
+  }
+  header section {
+    margin: 5vh 0 0 0;
+  }
+
+  .articlelastyear {
+    padding: 5% 10% 0 10%;
+  }
+
+  .bigtext {
+    font-size: 4rem;
+  }
+
+  .california-map {
+    background: #000 top right/60% url("../img/map.svg") no-repeat;
+  }
+  .california-map h2 {
+    font-size: 5rem;
+  }
+
+  .stuck {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .stuck .stuck-elements1 {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .stuck .stuck-elements1 h2 {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .stuck .stuck-elements1 p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 2;
+  }
+  .stuck .stuck-elements2 {
+    width: 100%;
+    padding: 20vh 0 40vh 0;
+  }
+  .stuck .stuck-elements2 p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 2;
+  }
+  .stuck .stuck-elements-img1 {
+    background: url("../img/action1.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -5vh;
+    right: 0;
+    width: 25%;
+    height: 15%;
+  }
+  .stuck .stuck-elements-img2 {
+    background: url("../img/action2.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30vh;
+    left: 5%;
+    width: 40%;
+    height: 20%;
+  }
+  .stuck .stuck-elements-img3 {
+    background: url("../img/action3.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35vh;
+    right: 5%;
+    width: 45%;
+    height: 20%;
+  }
+  .stuck .stuck-elements-img4 {
+    background: url("../img/action4.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 78vh;
+    left: 5%;
+    width: 40%;
+    height: 16%;
+  }
+  .stuck .stuck-elements-img5 {
+    background: url("../img/action5.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 80vh;
+    right: 5%;
+    width: 40%;
+    height: 16%;
+  }
+  .stuck .stuck-elements-img6 {
+    background: url("../img/action6.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 95vh;
+    left: 0;
+    width: 50%;
+    height: 20%;
+  }
+  .stuck .stuck-elements-img7 {
+    background: url("../img/action7.jpeg") no-repeat;
+    z-index: 1;
+    background-size: contain;
+    position: absolute;
+    top: 103vh;
+    left: 55%;
+    width: 40%;
+    height: 16%;
+  }
+
+  .bear {
+    display: flex;
+    flex-direction: column;
+  }
+  .bear .bear-left {
+    width: 100%;
+  }
+  .bear .bear-left p {
+    padding: 0 0 2vh 0;
+  }
+  .bear .bear-left h2 {
+    font-size: 5rem;
+    padding: 0 0 2vh 0;
+  }
+  .bear .bear-right {
+    width: 100%;
+    padding: 5vh 0 0 0;
+  }
+  .bear .greybear {
+    top: 85vh;
+  }
+  .bear .colorbear {
+    z-index: 3;
+    top: 92.5vh;
+  }
+
+  .poppy {
+    display: flex;
+    flex-direction: column;
+  }
+  .poppy .circle {
+    top: -18%;
+  }
+  .poppy .bear-left {
+    width: 10%;
+  }
+  .poppy .bear-left p {
+    padding: 0 0 2vh 0;
+  }
+  .poppy .bear-left h2 {
+    font-size: 5rem;
+    line-height: 0.9;
+  }
+  .poppy .bear-right {
+    width: 100%;
+    padding: 5vh 0 0 0;
+  }
+  .poppy .poppybear1 {
+    top: 90vh;
+  }
+  .poppy .poppybear2 {
+    top: 85vh;
+  }
+
+  .joinus {
+    flex-direction: column;
+    width: 100%;
+  }
+  .joinus .animation-wrap {
+    width: 300%;
+    height: 120px;
+    background: white;
+    color: black;
+    font-family: "Larish Neue Semibold2";
+    font-size: 1rem;
+    transform: rotate(0deg);
+    position: relative;
+    top: -73vh;
+    left: -10vw;
+    right: 0vw;
+  }
+  .joinus .animation-wrap h1 {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: animated-words 5s infinite linear;
+    animation-direction: alternate;
+  }
+  @keyframes animated-words {
+    from {
+      margin-left: -20%;
+    }
+    to {
+      margin-left: -100%;
+    }
+  }
+  .joinus .joinus-section {
+    width: 100%;
+  }
+  .joinus .joinus-section p {
+    padding: 10vh 0 2vh 0;
+  }
+  .joinus .joinus-section h3 {
+    padding: 5vh 0 0 0;
+    font-size: 3rem;
+  }
+  .joinus .joinus-section .rsvpButton {
+    display: inline-block;
+    margin: 3vh 0 0 0;
+  }
+
+  .footer {
+    padding: 0 10% 10vh 10%;
+    grid-template: 1fr/1fr 1fr;
+  }
+  .footer .social img {
+    width: 25%;
+    padding: 1vh 1vh 2vh 0;
+  }
+  .footer p {
+    line-height: 1.8;
+  }
+  .footer .logos img {
+    padding: 2vh 3% 1vh 0;
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

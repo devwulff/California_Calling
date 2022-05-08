@@ -1,0 +1,298 @@
+@media only screen and (max-width: 420px) {
+    // HEADER
+
+    header {
+        height: 70vh;
+
+        p:nth-of-type(1) {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h1:nth-of-type(2) {
+            margin: -2vh 0 0 0;
+        }
+
+        section {
+            margin: 5vh 0 0 0;
+        }
+    }
+
+    // MAIN
+    .articlelastyear {
+        padding: 5% 10% 0 10%;
+    }
+
+    .bigtext {
+        font-size: 4rem;
+    }
+
+    .california-map {
+        background: #000 top right / 60% url('../img/map.svg') no-repeat;
+
+        h2 {
+            font-size: 5rem;
+        }
+    }
+
+    .stuck {
+        @include whitedark;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .stuck-elements1 {
+            width: 100%;
+            padding: 0 0 0 0;
+
+            h2 {
+                text-align: center;
+                font-size: 5rem;
+            }
+
+            p {
+                text-align: center;
+                width: 100%;
+                font-size: 1.8rem;
+                line-height: 2;
+            }
+        }
+
+        .stuck-elements2 {
+            width: 100%;
+            padding: 20vh 0 40vh 0;
+
+            p {
+                text-align: center;
+                width: 100%;
+                font-size: 1.8rem;
+                line-height: 2;
+            }
+        }
+
+        .stuck-elements-img1 {
+            background: url('../img/action1.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -5vh;
+            right: 0;
+            width: 25%;
+            height: 15%;
+        }
+
+        .stuck-elements-img2 {
+            background: url('../img/action2.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 30vh;
+            left: 5%;
+            width: 40%;
+            height: 20%;
+        }
+
+        .stuck-elements-img3 {
+            background: url('../img/action3.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 35vh;
+            right: 5%;
+            width: 45%;
+            height: 20%;
+        }
+
+        .stuck-elements-img4 {
+            background: url('../img/action4.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 78vh;
+            left: 5%;
+            width: 40%;
+            height: 16%;
+        }
+
+        .stuck-elements-img5 {
+            background: url('../img/action5.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 80vh;
+            right: 5%;
+            width: 40%;
+            height: 16%;
+        }
+
+        .stuck-elements-img6 {
+            background: url('../img/action6.jpeg') no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 95vh;
+            left: 0;
+            width: 50%;
+            height: 20%;
+        }
+
+        .stuck-elements-img7 {
+            background: url('../img/action7.jpeg') no-repeat;
+            z-index: 1;
+            background-size: contain;
+            position: absolute;
+            top: 103vh;
+            left: 55%;
+            width: 40%;
+            height: 16%;
+        }
+    }
+
+    .bear {
+        display: flex;
+        flex-direction: column;
+
+        .bear-left {
+            width: 100%;
+
+            p {
+                padding: 0 0 2vh 0;
+            }
+
+            h2 {
+                font-size: 5rem;
+                padding: 0 0 2vh 0;
+            }
+        }
+
+        .bear-right {
+            width: 100%;
+            padding: 5vh 0 0 0;
+        }
+
+        .greybear {
+            top: 85vh;
+        }
+
+        .colorbear {
+            z-index: 3;
+            top: 92.5vh;
+        }
+    }
+
+    .poppy {
+        display: flex;
+        flex-direction: column;
+
+        .circle {
+            top: -18%;
+        }
+
+        .bear-left {
+            width: 10%;
+
+            p {
+                padding: 0 0 2vh 0;
+            }
+
+            h2 {
+                font-size: 5rem;
+                line-height: 0.9;
+            }
+        }
+
+        .bear-right {
+            width: 100%;
+            padding: 5vh 0 0 0;
+        }
+
+        .poppybear1 {
+            top: 90vh;
+        }
+
+        .poppybear2 {
+            top: 85vh;
+        }
+    }
+
+    .joinus {
+        flex-direction: column;
+        width: 100%;
+
+        .animation-wrap {
+            width: 300%;
+            height: 120px;
+            background: white;
+            color: black;
+            font-family: $headline;
+            font-size: 1rem;
+            transform: rotate(0deg);
+            position: relative;
+            top: -73vh;
+            left: -10vw;
+            right: 0vw;
+
+            h1 {
+                overflow: hidden;
+                position: absolute;
+                white-space: nowrap;
+                animation: animated-words 5s infinite linear;
+                animation-direction: alternate;
+            }
+        }
+
+        @keyframes animated-words {
+            from {
+                margin-left: -20%;
+            }
+
+            to {
+                margin-left: -100%;
+            }
+        }
+
+        .joinus-section {
+            width: 100%;
+
+            p {
+                padding: 10vh 0 2vh 0;
+            }
+
+            h3 {
+                padding: 5vh 0 0 0;
+                font-size: 3rem;
+            }
+
+            .rsvpButton {
+                display: inline-block;
+                margin: 3vh 0 0 0;
+            }
+        }
+    }
+
+    // FOOTER
+
+    .footer {
+        padding: 0 10% 10vh 10%;
+        ;
+        grid-template: 1fr / 1fr 1fr;
+
+        .social {
+            img {
+                width: 25%;
+                padding: 1vh 1vh 2vh 0;
+            }
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+
+        .logos {
+            img {
+                padding: 2vh 3% 1vh 0;
+                width: 50%;
+            }
+        }
+    }
+}
